@@ -790,6 +790,7 @@ li::marker {
 }
 */
 .itp-m3-post-info_area {
+  visibility: hidden;
   background: url("../img/copyright_black_24dp.svg");
   background-position: right -45px top -35px;
   background-repeat: no-repeat;

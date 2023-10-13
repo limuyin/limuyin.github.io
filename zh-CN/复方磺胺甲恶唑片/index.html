@@ -130,10 +130,6 @@
   
   <!--Comment-->
   
-  <!--Waline-->
-  <script src="/js/waline.js" defer></script>
-  <link rel="stylesheet" href="/css/waline.css" />
-  
   <!--Vercel Audiences Analytics-->
   
   <script defer src="/va/script.js"></script>
@@ -342,47 +338,6 @@
             <p>本文著作权归作者&nbspjiayin-class&nbsp所有，转载或引用请联系作者获得授权。</p>
           </div>
         </div>
-      </div>
-      
-      <div class="itp-m3-card itp-m3-post-comment_area" id="comment">
-        
-<div id="waline"></div>
-<script>
-  function startWaline() {
-    Waline.init({
-      el: '#waline',
-      serverURL: 'https://comment.tripper.press/',
-      path: '/zh-CN/%E5%A4%8D%E6%96%B9%E7%A3%BA%E8%83%BA%E7%94%B2%E6%81%B6%E5%94%91%E7%89%87/',
-      dark: 'auto',
-      search: false,
-      imageUploader: false,
-      wordLimit: [5, 200],
-      emoji: [
-        'https://imgur.lzmun.com/press_assets/emojis/bili'
-      ],
-    })
-  };
-  document.addEventListener("DOMContentLoaded", startWaline);
-</script>
-<style>
-  button[title="表情包"] {
-    display: none;
-  }
-
-  .wl-panel {
-    border-radius: 3px !important;
-  }
-
-  .wl-btn {
-    border-radius: 3px !important;
-  }
-
-  .wl-power {
-    text-align: center;
-    opacity: 0.3;
-  }
-</style>
-
       </div>
       
     </div>
