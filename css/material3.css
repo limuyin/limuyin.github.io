@@ -548,6 +548,7 @@ canvas {
     line-height: 48px;
   }
   .info-area .itp-m3-cover-subtitle {
+    visibility: hidden;
     padding-bottom: 8px;
     font-size: 18px;
     line-height: 22px;
