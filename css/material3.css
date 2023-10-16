@@ -532,6 +532,9 @@ canvas {
   color: var(--main-black);
 }
 
+.info-area .itp-m3-cover-subtitle {
+  visibility: hidden;
+}
 @media screen and (min-width: 1022px) {
   .info-area {
     padding: 96px 64px 64px 96px;
@@ -570,6 +573,7 @@ canvas {
     line-height: 32px;
   }
   .info-area .itp-m3-cover-subtitle {
+    visibility: hidden;
     padding-bottom: 8px;
     font-size: 18px;
     line-height: 22px;
@@ -585,6 +589,7 @@ canvas {
     line-height: 32px;
   }
   .info-area .itp-m3-cover-subtitle {
+    visibility: hidden;
     padding-bottom: 8px;
     font-size: 18px;
     line-height: 22px;
